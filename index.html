@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>LERO</title>
+</head>
+<body>
+    <header>
+        <!-- Навігаційна панель -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">LERO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Про нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">Меню</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Контакти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    
+      <main>
+        <!-- Картинка зі слоганом -->
+        <section class="jumbotron">
+          <div class="container text-center">
+            <h1 class="display-4">Смак, який запам'ятається</h1>
+          </div>
+        </section>
+    
+        <!-- Про нас -->
+        <section id="about" class="py-5">
+          <div class="container">
+            <h2 class="text-center mb-4">Про нас</h2>
+            <div class="row">
+                <div class="col-md-6">
+                  <p class="about-text">Ресторан "LERO" - це сучасний заклад з вишуканою кухнею та неповторним атмосферним дизайном. Наша команда професіоналів завжди готова зробити ваше перебування в нашому ресторані незабутнім. Ми пропонуємо широкий вибір страв інноваційної кухні, які приготовані з найсвіжіших інгредієнтів. Крім того, наші просторі зали та вишуканий сервіс зроблять ваш візит дійсно незабутнім. Завітайте до нас і насолоджуйтесь справжнім смаком! Ресторан "LERO" - це місце, де справжній смак поєднується з атмосферою тепла та гостинності. Ми пропонуємо нашим гостям неперевершені страви з найсвіжіших інгредієнтів, які приготовані з любов'ю і турботою наших кухарів. Ваше задоволення - наш пріоритет, тому ми прагнемо зробити кожне ваше відвідування незабутнім. Дозвольте нам піклуватися про ваше гастрономічне задоволення та запропонувати вам найкращі страви та обслуговування.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./assets/about.jpg" class="img-fluid" alt="Про нас">
+                </div>
+              </div>
+          </div>
+        </section>
+    
+        <!-- Меню -->
+        <section id="menu" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Меню</h2>
+                <div class="row">
+                  <!-- Перша карточка -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="./assets/pasta.jpg" class="card-img-top" alt="Страва 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Італійська паста</h5>
+                        <p class="card-text">Смачна паста з італійськими травами та помідорами. Подається з соусом Alfredo.</p>
+                        <p class="card-text"><small class="text-muted">Ціна: $10</small></p>
+                        <a href="#" class="btn btn-primary">Замовити</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Друга карточка -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="./assets/meat.jpg" class="card-img-top" alt="Страва 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Стейк з різних сортів м'яса</h5>
+                        <p class="card-text">Стейк з різних сортів м'яса, приготований на вогні до ідеального ступеня прожарки.</p>
+                        <p class="card-text"><small class="text-muted">Ціна: $15</small></p>
+                        <a href="#" class="btn btn-primary">Замовити</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Третя карточка -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="./assets/fruit.jpg" class="card-img-top" alt="Страва 3">
+                      <div class="card-body">
+                        <h5 class="card-title">Фруктовий салат</h5>
+                        <p class="card-text">Освіжаючий фруктовий салат зі свіжих фруктів та ягід. Ідеальний десерт для літнього дня.</p>
+                        <p class="card-text"><small class="text-muted">Ціна: $12</small></p>
+                        <a href="#" class="btn btn-primary">Замовити</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-primary">Все меню</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+      </main>
+
+      <!-- Відгуки -->
+<section id="reviews" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Відгуки</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Дуже смачна їжа та приємний персонал. Обов'язково повернемося ще раз!"</p>
+              <p class="card-text">- Іван Петров</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Чудова атмосфера та видатна кухня. Рекомендую всім!"</p>
+              <p class="card-text">- Олена Коваль</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Завжди приємно проводити час в ресторані LERO. Дякую за чудовий сервіс!"</p>
+              <p class="card-text">- Андрій Іванов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">Всі відгуки</a>
+      </div>
+    </div>
+  </section> 
+    
+      <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+          <p>&copy; 2024 LERO Restaurant. Усі права захищено.</p>
+        </div>
+      </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</body>
+</html>
